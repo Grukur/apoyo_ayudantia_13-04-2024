@@ -3,27 +3,37 @@
       {
         "nombre": "A",
         "ejemplos": ["amigo", "auto", "avión", "agua", "árbol"],
-        "rango": 5
+        "rango": 5,
+        "img":"A.jpg",
+        "sonido":"A.mp3"
       },
       {
         "nombre": "E",
         "ejemplos": ["elefante", "escuela", "estrella", "enfermedad", "escalera"],
-        "rango": 4
+        "rango": 4,
+        "img":"E.jpg",
+        "sonido":"E.mp3"
       },
       {
         "nombre": "I",
         "ejemplos": ["iglesia", "isla", "invierno", "imán", "ilusión"],
-        "rango": 3
+        "rango": 3,
+        "img":"I.jpg",
+        "sonido":"I.mp3"
       },
       {
         "nombre": "O",
         "ejemplos": ["oso", "orilla", "oro", "ojo", "oveja"],
-        "rango": 2
+        "rango": 2,
+        "img":"O.jpg",
+        "sonido":"O.mp3"
       },
       {
         "nombre": "U",
         "ejemplos": ["uva", "universo", "unicornio", "uniforme", "último"],
-        "rango": 1
+        "rango": 1,
+        "img":"U.jpg",
+        "sonido":"U.mp3"
       }
     ]
   }
