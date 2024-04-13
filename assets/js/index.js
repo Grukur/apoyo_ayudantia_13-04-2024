@@ -32,6 +32,40 @@ const cardCreate = () => {
     }
 }
 
+window.playSound = (sonido) => {
+    try {
+        let musica = new Audio(`./assets/sounds/${sonido}`);
+        musica.play();
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+window.modalDetails = (i) => {
+    try {
+        const modalBody = document.getElementsByClassName('modal-body')[0];
+        const vocal = vocales[i];
+        modalBody.innerHTML = `
+        <div class="px-3 pb-2">
+        <div class="card w-50 m-auto bg-dark text-white border-0">
+          <img
+            src="./assets/imgs/${vocal.img}"
+            class="d-block m-auto w-100"
+          />
+          <div class="card-body text-center">
+            <h6 class="card-text ">${vocal.rango}</h6>
+            <h6 class="card-text m-0">Comentarios</h6>
+            <hr/>
+            <p>${vocal.comentario}</p>
+          </div>
+        </div>
+        </div>
+        `
+    } catch (error) {
+        console.log(error)
+    }
+};
+
 document.getElementById('vocal').addEventListener('change', async (e) => {
     try {
         const vocalSelected = e.target.value;
