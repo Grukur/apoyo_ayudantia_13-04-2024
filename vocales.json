@@ -1,0 +1,29 @@
+{
+    "vocales": [
+      {
+        "nombre": "A",
+        "ejemplos": ["amigo", "auto", "avión", "agua", "árbol"],
+        "rango": 5
+      },
+      {
+        "nombre": "E",
+        "ejemplos": ["elefante", "escuela", "estrella", "enfermedad", "escalera"],
+        "rango": 4
+      },
+      {
+        "nombre": "I",
+        "ejemplos": ["iglesia", "isla", "invierno", "imán", "ilusión"],
+        "rango": 3
+      },
+      {
+        "nombre": "O",
+        "ejemplos": ["oso", "orilla", "oro", "ojo", "oveja"],
+        "rango": 2
+      },
+      {
+        "nombre": "U",
+        "ejemplos": ["uva", "universo", "unicornio", "uniforme", "último"],
+        "rango": 1
+      }
+    ]
+  }
