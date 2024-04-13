@@ -8,10 +8,10 @@ let data = (()=>{
             const { vocales } = json;
             return vocales;
         }
-        return getData();
+        return {getData};
     } catch (error) {
         console.log(error);
     }
-})
+})();
 
 export default data;
